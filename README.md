@@ -1,1 +1,1 @@
-For people who love pokemon
+For people who love Pokémon
