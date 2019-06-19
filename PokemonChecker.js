@@ -1,3 +1,4 @@
+import './index.css';
 async function getPokemon(name) {
     let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}/`)
     let pokemonData = await response.json();
