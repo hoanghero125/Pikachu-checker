@@ -1,2 +1,2 @@
 For people who love Pokémon
-By hoanghero125
+- By hoanghero125
