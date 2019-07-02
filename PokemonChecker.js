@@ -12,6 +12,11 @@ btn.addEventListener("click", () => {
     let input = document.getElementById("pokemon_name")
     getPokemon(input.value)
 })
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    let input = document.getElementById("pokemon_name")
+    getPokemon(input.value)
+})
 
 
 
