@@ -8,14 +8,19 @@ async function getPokemon(name) {
     pokename.textContent = pokemonData.name.toUpperCase();
     }
 let btn = document.getElementById("btn_get_pokemon")
-btn.addEventListener("click", () => {
-    let input = document.getElementById("pokemon_name")
-    getPokemon(input.value)
-})
 form.addEventListener("submit", (event) => {
     event.preventDefault();
-    let input = document.getElementById("pokemon_name")
-    getPokemon(input.value)
+    let input = document.getElementById("pokemon_name").value
+        if (input == "") {
+        alert("You have to fill Pokémon names or numbers into the box")
+    }
+    // let input = document.getElementById("pokemon_name").value
+    //     if (input == "") {
+        
+    //     }
+    else{
+        getPokemon(input)
+    }
 })
 
 
